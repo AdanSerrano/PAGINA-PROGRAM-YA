@@ -62,37 +62,40 @@ header .logo{
 
 }
 header .logo{
-    margin: 0;
     padding: 25px 30px;
     font-weight: bold;
     color:blueviolet;
     font-size: 2.5em ;
 }
 
-header .container{
-    display: flex;
-    flex-direction: column ;
+header .row{
+    background-color: rgb(240,240,240) ;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-style: none;
+}
+
+header .column{
+    margin: 20px;
+    display: -ms-flexbox;
+    justify-content: space-between;
     align-items: center;
 }
 
 header nav{
-    display: flex;
-    flex-direction:column;
     text-align: center;
-    padding-bottom: 10px;
 }
-header a{
-    padding: 5px 12px;
+
+header .color-a{
     text-decoration: none;
     font-weight: bold;
     color: black;
 }
 
-header a:hover{
+header .color-a:hover{
     background-color: rgb(0, 0, 0);
     color:white;
-    border-radius: 10px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 1.5);
+    border-radius: 20px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 1.5);
 }
 
 #hero{
@@ -194,7 +197,12 @@ header a:hover{
     margin: 12px 0px;
     font-weight: bold;
 }
-
+#caracteristicas .z-depth-2r{
+    padding: 40px;
+    border-radius: 20px;
+    background-image: linear-gradient(to top,#918C8B  -50%,white  100%);
+  }
+  
 #final{
     display:flex;
     flex-direction: column;
@@ -202,9 +210,11 @@ header a:hover{
     justify-content: center;
     text-align: center;
     background-color: rgb(0,0,0);
-    color: white; 
-    height: 80vh;
-    padding: 10px;
+    color: white;
+    padding: 40px;
+    width: 80%;
+    margin-bottom: 40px;
+    border-radius: 5%;
 }
 
 

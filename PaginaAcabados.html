@@ -5,22 +5,29 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="preload" href="css/styles.css" as="style">
     <link href="css/styles.css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+
+    <link rel="stylesheet" href="css/materialize.min.css">
+
+    <script src="js/materialize.min.js"></script>
 </head>
 <body>
     <script src="js/script.js"></script>
     <header>
-        <div class="container">
+    <div class="r">
             <p class="logo">ProgramaYA!</p>
-        
-        <nav>
-            <a href="#somos-proya">Sobre Nosotros</a>
-            <a href="#Nuestros-programas">Nuestros Cursos</a>
-            <a href="#caracteristicas">Caracteristicas</a>
-        </nav>
+        <div class="container">
+            <nav class="row conatiner ">
+                <a class="container column color-a" href="#somos-proya">Sobre Nosotros</a>
+                <a class="container column color-a" href="#Nuestros-programas">Nuestros Cursos</a>
+                <a class="container column color-a" href="#caracteristicas">Caracteristicas</a>
+            </nav>
+        </div>
     </div> 
     </header>
 
-    <section id="hero">
+    <section id="hero" class="container row">
         <h2>Aprende a Programar <br>con los Mejores</h2>
         <button>APLICA YA!</button>
     </section>
@@ -33,25 +40,26 @@
         </div>
     </section>
 
-    <section id="Nuestros-programas">
+    <section id="Nuestros-programas" class="container">
         <div class="container">
             <h2>Nuestros programas</h2>
             <div class="programas">
                 <div class="cartas">
-                    <h3>Programador Front-end</h3>
+                    <h3 class="grey-text">Programador Front-end</h3>
                 <span class="hide" id="hidetext">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nisi ex rem! Magni deserunt facilis eum eos ipsam ad consequuntur corporis totam unde? Nostrum, consequatur? Laboriosam deserunt nobis exercitationem dolores.</p> 
                 </span>
                 <button id="hidetext_btn">+ Info</button>
                 </div>
                 <div class="cartas">
+                        <h3 class="grey-text">Programador Full Stack</h3>
                     <span class="hide" id="hidetext">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nisi ex rem! Magni deserunt facilis eum eos ipsam ad consequuntur corporis totam unde? Nostrum, consequatur? Laboriosam deserunt nobis exercitationem dolores.</p> 
                     </span>
                     <button id="hidetext_btn">+ Info</button>
                 </div>
                 <div class="cartas">
-                    <h3>Programador back-end</h3>
+                    <h3 class="grey-text">Programador back-end</h3>
                     <span class="hide" id="hidetext">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nisi ex rem! Magni deserunt facilis eum eos ipsam ad consequuntur corporis totam unde? Nostrum, consequatur? Laboriosam deserunt nobis exercitationem dolores.</p> 
                     </span>
@@ -62,8 +70,8 @@
     </section>
 
     <section id="caracteristicas">
-        <div class="container">
-            <ul>
+        <div class="container row center center-align truncate">
+            <ul class="z-depth-2 z-depth-2r">
                 <li>​✔️​ 100% Online </li>
                 <li>​✔️​ Flexibilidad de horarios</li>
                 <li>​✔️​ Soporte 1:1</li>
@@ -72,9 +80,9 @@
         </div>
     </section>
 
-    <section id="final">
-        <h2>Listos para programar</h2>
-        <button>APLICA YA!</button>
+    <section class="container row" id="final">
+            <h2>Listos para programar</h2>
+                <button>APLICA YA!</button>
     </section>
 
     <footer>
@@ -82,6 +90,6 @@
             <p>&copy; Programa YA 2022</p>
         </div>
     </footer>
-
+    <script type="text/javascript" src="js/materialize.min.js"></script>
 </body>
 </html>
