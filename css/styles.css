@@ -189,7 +189,7 @@ header .color-a:hover{
 #caracteristicas .container{
     text-align: center;
     position: relative;
-    padding: 10%;
+    padding: 0%;
 }
 
 
@@ -209,8 +209,8 @@ header .color-a:hover{
 }
 
 #caracteristicas .borde-lat{
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 40%;
     margin: 2px;
 }
 
@@ -329,3 +329,25 @@ footer .container{
         font-size: 4rem;
     }
 }
+
+#caracteristicas{
+
+}
+
+#caracteristicas ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.xxx{
+    flex: 1;
+}
+
+#caracteristicas img{
+    flex: 1;
+    margin-top: 10%;
+    margin-right: 5%;
+}
+
