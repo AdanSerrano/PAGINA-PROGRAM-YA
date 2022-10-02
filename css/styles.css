@@ -265,7 +265,7 @@ footer .container{
         padding: 0;
         margin: 15px;
     }
-    
+
 }
 
 #Nuestros-programas .hide{
@@ -274,4 +274,44 @@ footer .container{
 
 .show{
     display: block;
+}
+
+@media (max-width: 800px){
+    .logo{
+        text-align: center;
+    }
+
+    header a{
+        padding: 20px;
+        margin: 15px;
+        font-size: 1.2rem;
+    }
+
+    header .container{
+        width: 100%;
+    }
+
+}
+
+@media (max-width:620px){
+
+    header .container{
+        display: flex;
+        width: 100%;
+        margin: 0;
+        justify-content: center;
+        border-bottom: 1px solid rgb(180, 180, 180);
+    }
+
+    
+
+    header nav{
+        height: 25%;
+        flex-direction: column;
+        flex: 1;
+    }
+
+    #final h2{
+        font-size: 4rem;
+    }
 }
