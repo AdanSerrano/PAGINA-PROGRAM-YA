@@ -188,29 +188,43 @@ header .color-a:hover{
 
 #caracteristicas .container{
     text-align: center;
-    padding: 200px 12px;
+    position: relative;
+    padding: 0%;
 }
+
+
 #caracteristicas li{
     display:flex;
-    align-items: center ;
-    justify-content: center;
-    margin: 12px 0px;
+    align-items: flex-start ;
+    justify-content: flex-start;
     font-weight: bold;
 }
+
+#caracteristicas .espacio-1{
+    padding-top: 10%;
+}
+
+#caracteristicas .espacio-2{
+    padding-bottom: 10%;
+}
+
+#caracteristicas .borde-lat{
+    padding-left: 5%;
+    padding-right: 40%;
+    margin: 2px;
+}
+
 #caracteristicas .z-depth-2r{
-    padding: 40px;
     border-radius: 20px;
     background-image: linear-gradient(to top,#918C8B  -50%,white  100%);
-  }
-  
+}
+
 #final{
     display:flex;
     flex-direction: column;
     align-items: center ;
     justify-content: center;
     text-align: center;
-    background-color: rgb(0,0,0);
-    color: white;
     padding: 40px;
     width: 80%;
     margin-bottom: 40px;
@@ -315,3 +329,25 @@ footer .container{
         font-size: 4rem;
     }
 }
+
+#caracteristicas{
+
+}
+
+#caracteristicas ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.xxx{
+    flex: 1;
+}
+
+#caracteristicas img{
+    flex: 1;
+    margin-top: 10%;
+    margin-right: 5%;
+}
+
